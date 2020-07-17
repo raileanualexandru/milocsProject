@@ -1,0 +1,47 @@
+#bodyindex{
+    background-image: url("images/6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+
+    #ghiblifilms{
+        background-image: url("images/4.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        }
+        #ghiblipersons{
+        background-image: url("images/9.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        }
+    #filmonline{
+        background-color: black;
+    }
+    .card-body {
+      background-color: grey;
+    }
+    
+    #cardfilm{
+        background-color: rgb(117, 126, 118);
+    }
+
+    
+    
+    .map-container iframe {
+        width: 50%;
+        display: block;      
+        margin: auto;
+    }
+
+    .card-text{
+        font-family: 'Dancing Script', cursive;
+    }
+    #nav{
+        padding-right: 3em;
+    }
+ 
+
+
