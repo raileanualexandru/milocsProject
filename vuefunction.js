@@ -80,11 +80,76 @@ data: function(){
     };
 var Films = {
     template:`<div id="ghiblifilms">
-    <center>
-   <h1>StudioGhibli Films:</h1>
-     <p v-for="film in films"><strong>{{film.title}}</strong></p>
-    
-      </center>              
+     <div class="bs-docs-section">
+            <h2 id="other" class="post-header">Other Short Films</h2>
+            <hr class="header-line">
+            <div class="row">
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#the_whale_hunt" title="The Whale Hunt" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/kujiratori.jpg" alt="The Whale Hunt" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">The Whale Hunt</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#mei_and_the_baby_cat_bus" title="Mei and the Baby Cat Bus" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/meitokonekobasu.jpg" alt="Mei and the Baby Cat Bus" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">Mei and the Baby Cat Bus</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#the_day_i_bought_a_star" title="The Day I Bought a Star" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/hoshiwokattahi.jpg" alt="The Day I Bought a Star" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">The Day I Bought a Star</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#mon_mon_the_water_spider" title="Mon Mon the Water Spider" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/mizugumomonmon.jpg" alt="Mon Mon the Water Spider" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">Mon Mon the Water Spider</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#a_sumo_wrestlers_tail" title="A Sumo Wrestler's Tail" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/chuzumo.jpg" alt="A Sumo Wrestler's Tail" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">A Sumo Wrestler's Tail</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#mr_dough_and_the_eggprincess" title="Mr. Dough and the Egg Princess" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/pandanetotamagohime.jpg" alt="Mr. Dough and the Egg Princess" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">Mr. Dough and the Egg Princess</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#treasure_hunting" title="Treasure Hunting" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/takarasagashi.jpg" alt="Treasure Hunting" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">Treasure Hunting</h5></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-ss-6 col-sm-6 col-md-4">
+                    <a href="http://www.ghibli-museum.jp/en/films/works/#boro_the_caterpillar" title="Boro the Caterpillar" class="panelarea">
+                        <div class="panel panel-square panel-default">
+                            <img src="http://www.ghibli-museum.jp/en/images/kemusshinoboro.jpg" alt="Boro the Caterpillar" class="panel-img-top">
+                            <div class="panel-footer"><h5 class="text-ellipsis mt5 mb5">Boro the Caterpillar</h5></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>            
     </div>`,
     data: function(){
         return{films: []}},
